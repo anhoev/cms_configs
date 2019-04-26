@@ -1,0 +1,27 @@
+{
+  "database": {
+    "host": "db-gg1812.gigaorder.de",
+    "port": 27017,
+    "dbName": "gg-dgsignage-demo",
+		"username": "gg-dgsignage-demo",
+    "password": "ggdgsignagedemo123$%^"
+  },
+  "plugins": [
+    {
+      "name": "core-plugin",
+      "url": "git@github.com:gigaorder/core-plugin.git",
+      "branch": "master"
+    },
+    {
+      "name": "digital-signage-plugin",
+      "url": "git@github.com:gigaorder/digital-signage-plugin.git",
+      "branch": "master",
+      "package": true
+    },
+    {
+      "name": "permission-plugin",
+      "url": "git@github.com:gigaorder/permission-plugin.git",
+      "branch": "master"
+    }
+  ]
+}
